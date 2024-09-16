@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Pages from './components/navBar.js';
+import Text from "./components/texBl.js"
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+        <Text></Text>
       </main>
     </div>
   );

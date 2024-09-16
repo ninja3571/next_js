@@ -1,4 +1,6 @@
 import Pages from '/src/app/components/navBar.js';
+import Text from '/src/app/components/texBl.js'
+import Imagge from '/src/app/components/image.js'
 
 export default function Home() {
     return (
@@ -16,6 +18,8 @@ export default function Home() {
             </li>
             <li>Save and see your changes instantly.</li>
           </ol>
+          <Text/>
+          <Imagge/>
         </main>
       </div>
     );

@@ -1,5 +1,5 @@
 import Pages from '/src/app/components/navBar.js';
-// import SimpleForm from '/src/app/components/form.js'
+import SimpleForm from '/src/app/components/form.js'
 import ConditionalDisplay from '/src/app/components/visibility.js'
 
 export default function Home() {
@@ -8,10 +8,10 @@ export default function Home() {
         <Pages></Pages>
         <ConditionalDisplay
         isVisible='true'/>
-        {/* <SimpleForm
-        label='label'
+        <SimpleForm
+        label='konsola'
         placeholder='text'
-        /> */}
+        />
       </div>
     );
   }

@@ -1,7 +1,8 @@
 function ListWithObjects({ items }) {
+    const itemss = items
     return (
-      <ul>      {items.map((item, index) => (        <li key={index}>          {item.name}: {item.value}        </li>
-            ))}
+      <ul>      {itemss.map((item, index) =>         <li key={index}> {item.name}: {item.value} </li>
+            )}
         </ul>  
     );
 }

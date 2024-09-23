@@ -1,15 +1,11 @@
-import Image from "next/image";
-
-export default function Imagge() {
+export default function Imagge({srcUrl, altText}) {
   return (
     <div>
-    <Image
-      src="/components/cat.png"
-      width={500}
-      height={300}
-      alt="image"
-      priority
-    />
+      <img
+        src={srcUrl}
+        alt={altText}
+        style={{width:'500px',height:'300px'}}
+      />
     </div>
-  )
+  );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Pages from './components/navBar.js';
+import DynamicButton from "./components/button.js"
 
 export default function Home() {
   return (
@@ -24,6 +25,10 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+        <DynamicButton
+        label='Przycisk'
+        onClickk={"document.getElementById('wyraz').innerHTML='zmienione'"}/>
+        <h3 id='wyraz'>kliknij przycisk</h3>
       </main>
     </div>
   );
